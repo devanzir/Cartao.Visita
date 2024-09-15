@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.card {
+    text-align: center;
+    background-color: #fcfbfb;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5), 0 20px 35px rgba(0, 0, 0, 1.5);
+    padding: 25px;
+    max-width: 400px;
+    
+}
+    
+    
+   
+.imagem {
+    align-items: center;
+    border-radius: 8%;
+    margin-bottom: 10px;
+    width: 380px;
+    height: auto;
+    align-items: center;
+}
+.log  {
+    background-color:hsl(47, 88%, 63%);
+    color: #161616;
+    text-align: left;
+    font-size: 20px;
+    padding:15px;
+    margin: 0;
+    border: 2px solid #f1eeee;
+    border-radius: 9px;
+    max-width: 95px;
+}
+.card .log data{
+    background-color: hsl(47, 88%, 63%);
+    color: #161616;
+    text-align: left;
+    font-size: 24px;
+    padding:15px;
+    margin: 0;
+    border: 2px solid #f1eeee;
+    border-radius: 5px;
+}
+.card h2{
+    text-align: left;
+    font-size: 18px;
+}
+.card p {
+    color: hsl(47, 88%, 63%);
+    margin: 10px 0;
+    text-align: left;
+    font-weight:bolder;
+    font-size: 24px;
+    font-family: 'polly Rounded', sans-serif;
+}
+.card .sobre {
+   color: rgb(109, 108, 108);
+   line-height: 1.5;
+   text-align: left;
+}
+.Imagem {
+    display: flex; 
+    align-items: center;
+    font-size:18px;
+    font-weight: bolder;
+}
+
+.Imagem img {
+    margin-right: 10px;
+}
